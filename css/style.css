@@ -98,6 +98,7 @@ body{
 
 .navbar .navbar-nav .nav-item .nav-link{
     font-size: 14px;
+    font-weight: 500;
     letter-spacing: 0.5px;
 }
 
