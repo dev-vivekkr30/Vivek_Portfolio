@@ -28,7 +28,7 @@
     }
 }
 
-@media (max-width:420px){
+@media (max-width:480px){
     .header-section {
         text-align: center;
     }
