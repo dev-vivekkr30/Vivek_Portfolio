@@ -102,6 +102,10 @@ body{
     letter-spacing: 0.5px;
 }
 
+.navbar-light .navbar-toggler{
+    border-color: #fff !important;
+}
+
 /* Header-section */
 
 .header-section{
