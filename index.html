@@ -21,6 +21,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+   
+    <!-- Email JS Script -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("La8ng__8CAYJF2FwF");
+        })();
+    </script>
+
+<script src="JS/index.js"></script>
 
 
 </head>
@@ -416,21 +428,21 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <form>
+                    <form method="post">
                         <div class="row">
                             <p style="font-size: 14px;">Love to hear from you 😊</p>
                             <div class="col-md-12 mb-3">
-                                <input class="form-control" id="name" placeholder="Name" type="text" name="Name">
+                                <input class="form-control" id="f_name" placeholder="Name" type="text" name="f_name">
                             </div>
                             <div class="col-md-12 mb-3">
-                                <input class="form-control" id="email" placeholder="Email" type="email" name="Email">
+                                <input class="form-control" id="email_id" placeholder="Email" type="email" name="email_id">
                             </div>
                             <div class="col-md-12 mb-3">
-                                <input class="form-control" id="message" placeholder="Message" type="text" name="Message">
+                                <input class="form-control" id="message" placeholder="Message" type="text" name="message">
                             </div>
                         </div>
                         <div class="col-md-12 mt-3">
-                            <button class="black-btn" style="padding: 5px 20px; background-color: transparent; color: #000; font-size: 14px;" onclick="sendMail()">
+                            <button class="black-btn" style="padding: 5px 20px; background-color: transparent; color: #000; font-size: 14px;" onclick="sendMail()" type="submit">
                                 Submit <span><img style="max-width:16px; margin-left: 5px; margin-bottom: 4px;" src="images/plane.png" alt="mail" srcset=""></span>
                             </button>
                         </div>
