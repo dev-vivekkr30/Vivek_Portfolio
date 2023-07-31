@@ -20,6 +20,9 @@
     <!-- OwlCarousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
 </head>
 
 <body>
@@ -28,7 +31,7 @@
         <!-- navigation bar start -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Vivek Kumar</a>
+                <a class="navbar-brand" href="#"><span><img style="max-width: 25px;  margin-right: 5px;" src="images/favicon.png" alt="mail" srcset=""></span>Vivek Kumar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +67,7 @@
             <div class="col-md-8 mb-4 header-text">
                 <h1>Hi, I'm <span>Vivek Kumar</span></h1>
                 <p style="font-size: 14px;">
-                    Creating Seamless Digital Experiences for Empowered Users<br><b>Meet Your Front-end Developer Vivek! with 2+ years of industry experience.</b>
+                    Creating Seamless Digital Experiences for Empowered Users 👌<br><b>Meet Your Front-end Developer Vivek! with 2+ years of industry experience.</b>
                 </p>
 
                 <a href="#connet-with-me"><button class="main-btn">Let's talk</button></a>
@@ -167,11 +170,12 @@
                     </h3>
 
                     <p>
-                        To build a strong visual design language
-                        of Internshala and consistent
-                        experience throughout the platform.
-                        Increased Design & Engineering
-                        efficiency by 100%
+                        Users can do the following:
+                        See the site's optimal layout based on their device's screen size.
+                        Reduce the length of any valid URL.
+                        Even after refreshing the browser, you can see a list of their shortened links.
+                        With a single click, they can copy the shortened link to their clipboard.
+                        When you submit the form, you'll get an error message if: The input field is currently empty.
                     </p>
 
                     <button class="black-btn">Checkout case study</button>
@@ -374,9 +378,9 @@
 
         <div class="download-cv wrapper">
             <h1>Download my resume</h1>
-            <p>🚀Highly skilled in: User Experience Design, Design System, Wireframing, User Interface Design, <br>
-                Interaction Design,
-                Prototyping, Visual Design, Leadership, User research.</p>
+            <p>🚀Highly skilled in: User Experience Design,User Interface Design,
+                Prototyping, Visual Design, User research,<br> HTML & CSS, JavaScript, ReactJs,
+                Bootstrap, Git-GitHub and Agile methodologies.</p>
 
             <a class="nav-link" href="downloads/Vivek_Frontend_dev.pdf"><button class="black-btn">Download
                     Resume</button>
@@ -416,17 +420,17 @@
                         <div class="row">
                             <p style="font-size: 14px;">Love to hear from you 😊</p>
                             <div class="col-md-12 mb-3">
-                                <input class="form-control" placeholder="Name" type="text" name="Name" id="">
+                                <input class="form-control" id="name" placeholder="Name" type="text" name="Name">
                             </div>
                             <div class="col-md-12 mb-3">
-                                <input class="form-control" placeholder="Email" type="email" name="Email" id="">
+                                <input class="form-control" id="email" placeholder="Email" type="email" name="Email">
                             </div>
                             <div class="col-md-12 mb-3">
-                                <input class="form-control" placeholder="Message" type="text" name="Message" id="">
+                                <input class="form-control" id="message" placeholder="Message" type="text" name="Message">
                             </div>
                         </div>
                         <div class="col-md-12 mt-3">
-                            <button class="black-btn" style="padding: 5px 20px; background-color: transparent; color: #000; font-size: 14px;">
+                            <button class="black-btn" style="padding: 5px 20px; background-color: transparent; color: #000; font-size: 14px;" onclick="sendMail()">
                                 Submit <span><img style="max-width:16px; margin-left: 5px; margin-bottom: 4px;" src="images/plane.png" alt="mail" srcset=""></span>
                             </button>
                         </div>
@@ -472,15 +476,6 @@
                 }
             }
         })
-
-        owl.on('mousewheel', '.owl-stage', function (e) {
-            if (e.deltaY>0) {
-                owl.trigger('next.owl');
-            } else {
-                owl.trigger('prev.owl');
-            }
-            e.preventDefault();
-        });
     </script>
 
 </body>

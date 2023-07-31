@@ -109,7 +109,7 @@ body{
     display: flex;
     height: auto;
     /* background-image: url('/Website/images/background.png'); */
-
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -197,7 +197,7 @@ body{
 }
 
 .project-list .project .project-text p{
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 10px;
 }
 
