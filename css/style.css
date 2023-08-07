@@ -247,23 +247,18 @@ body{
 }
 
 .connect{
-    background-color: #f6f7ff !important;
+    background-image: url(/images/footer.png);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white-color) !important;
 }
 
-.connect h1{
-    text-align: center;
-    font-size: 48px !important;
+.connect h3{
+    text-align: left;
     font-weight: bold;
+    color: var(--white-color);
     margin-bottom: 50px;
 }
-
-.form-control{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid;
-    border-radius: 0px;
-    padding-left: 0px;
-    font-size: 14px !important;
-}
-
 
