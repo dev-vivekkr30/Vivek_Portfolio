@@ -188,7 +188,7 @@ body{
 
 .project-list .project .project-img img{
     border-radius: 10px;
-    max-width: 100%;
+    max-width: 350px;
 }
 
 .project-list .project .project-text h3{
@@ -203,9 +203,8 @@ body{
 
 /* testimonial */
 
-.testimonial h1{
+.testimonial h3{
     text-align: center;
-    font-size: 48px !important;
     font-weight: bold;
     margin-bottom: 50px;
 }
@@ -239,9 +238,8 @@ body{
 .download-cv {
     text-align: center;
 }
-.download-cv h1{
+.download-cv h3{
     text-align: center;
-    font-size: 48px !important;
     font-weight: bold;
     margin-bottom: 50px;
 }
